@@ -1,35 +1,78 @@
-.background {padding: 0px;margin: 0px;text-align: center;background-image: url("images/bg.jpg");width: 100%;height: 100%;position: relative}
-.swf{width: 719px;height: 289px}
-footer{ background-image: url("images/copyright.jpg");width: 574px;height: 70px;margin: auto}
-
+.background { padding: 0px; margin: 0px; text-align: center; background-image: url("images/bg.jpg"); width: 100%; height: 100%; position: relative }
+.swf { width: 719px; height: 289px }
+footer { position: relative; margin: 0px; padding: 0px }
+footer .bottom { background-image: url("images/down.jpg"); width: 719px; height: 44px; margin: auto }
+footer .info { background-image: url("images/copyright.jpg"); width: 574px; height: 70px; margin: auto }
+header { width: 719px; text-align: center; margin: auto }
+header .bar { overflow: hidden; margin: 0px }
+header .item { background-image: url("images/link2.jpg"); width: 101.5px; height: 55px; float: left; }
+header a { text-align: center; text-decoration: none }
+header .en { color: darkgreen; font-size: 5px; margin-top: 15px }
+header .cn { color: darkgreen; font-size: 10px; font-weight: 900 }
+.content { background-image: url("images/lmbg.jpg"); width: 639px; height: auto; text-align: center; margin: auto; overflow: hidden; padding: 0px 40px; position: relative }
+.top { margin-bottom: 30px; margin-top: 20px }
+.top a { color: green }
 /*index页面*/
-.index .swf{width: 712px;height: 429px;}
-.index .text{font-size: 2rem;margin: auto;color: white;font-family: "Arial Black";}
-
+.index .swf { width: 712px; height: 429px; }
+.index .text { font-size: 2rem; margin: auto; color: white; font-family: "Arial Black"; }
 /*intro页面*/
 /*body{overflow: hidden}*/
-.intro header{width: 719px;text-align: center;margin: auto}
-.intro header .bar {overflow: hidden;margin: 0px}
-.intro header .item{background-image: url("images/link2.jpg");width:101.5px;height: 55px;float: left;}
-.intro header a{text-align: center;text-decoration: none}
-.intro header .en{color: darkgreen;font-size: 5px;margin-top: 15px}
-.intro header .cn{color: darkgreen;font-size: 10px;font-weight: 900}
 
-.intro .content{background-image: url("images/lmbg.jpg");width: 639px;height: auto;text-align: center;margin: auto;overflow: hidden;padding: 0px 40px;position: relative}
-.intro .content .title{background-image: url("images/lanmu1.jpg");width: 719px;height: 45px;margin: auto;position: relative;left: -40px;margin-bottom: 10px}
-.intro .content .img{;float: left;width: 208px;height: 137px;margin-right: 5px}
-.intro .content .title_cn{color: darkgreen;font-size: 15px;text-align: left;font-weight: 900}
-.intro .content .title_en{color: darkgreen;font-size: 3px;text-align: left;font-weight: 600;margin-bottom: 15px}
-.intro .content .text{font-size: 5px;text-indent: 20px;text-align: left}
+.intro .content { background-image: url("images/lmbg.jpg"); width: 639px; height: auto; text-align: center; margin: auto; overflow: hidden; padding: 0px 40px; position: relative }
+.intro .content .title { background-image: url("images/lanmu1.jpg"); width: 719px; height: 45px; margin: auto; position: relative; left: -40px; margin-bottom: 10px }
+.intro .content .img { float: left; width: 208px; height: 137px; margin-right: 5px }
+.intro .content .title_cn { color: darkgreen; font-size: 15px; text-align: left; font-weight: 900 }
+.intro .content .title_en { color: darkgreen; font-size: 3px; text-align: left; font-weight: 600; margin-bottom: 15px }
+.intro .content .text { font-size: 13px; text-indent: 20px; text-align: left }
+.intro .content .intruction1 { margin-bottom: 50px }
+.intro .content .intruction2 { margin-bottom: 50px }
+.intro .content .intruction1 .img { background-image: url("images/pic1.jpg") }
+.intro .content .intruction2 .img { background-image: url("images/pic2.jpg") }
+.intro .detail .text { text-indent: 0px }
+.intro .img2 { text-align: center; clear: both }
+.intro .img2 div { width: 230px; height: 150px; display: inline-block; margin-bottom: 10px }
+.intro .img2 div:nth-child(1) { background-image: url("images/pic7.jpg") }
+.intro .img2 div:nth-child(2) { background-image: url("images/pic8.jpg") }
+/*news页面*/
+.news .img { background-image: url("images/lanmu2.jpg"); width: 719px; height: 45px; margin-left: -40px }
+.news .content .item { text-align: left; margin-left: 50px; margin-top: 15px; }
+.news .content .item a { color: green; font-size: 13px }
+/*生活配套页面*/
+.area .content { overflow: hidden; }
+.area .content .img { background-image: url("./images/lanmu3.jpg"); width: 719px; height: 45px; margin-left: -40px; margin-bottom: 30px }
+.area .title { font-size: 15px; color: green; text-align: left; font-weight: 600; margin-bottom: 15px }
+.area .position .info { float: left; }
+.area .position .img { background-image: url("images/pic3.jpg"); width: 229px; height: 150px; display: inline-block }
+.area .position .text { text-align: left; font-size: 13px; margin-top: 0px; margin-bottom: 30px }
+.area .position .text p { margin: 0px }
+.area .pathLine .info .text { text-align: left; font-size: 13px }
+.area .pathLine .info p { text-align: left; font-size: 13px; text-indent: 26px }
+/*园林景观页面*/
+.looks .img { background-image: url("./images/lanmu4.jpg"); width: 719px; height: 45px; margin-left: -40px; margin-bottom: 20px }
+.looks .title { color: green; font-size: 15px; font-weight: 600; margin-bottom: 20px; text-align: left }
+.looks .target .img { background-image: url("images/pic8.jpg"); width: 229px; height: 150px; float: right; margin-left: 0px }
+.looks .target .info { margin-right: 20px; }
+.looks .target .text { text-align: left; font-size: 13px; text-indent: 26px; margin-bottom: 20px }
+.looks .idea .text { text-indent: 26px; font-size: 13px; margin-bottom: 20px; text-align: left }
+/*户型介绍*/
+.structure .img { background-image: url("images/lanmu5.jpg"); margin-left: -40px ;height: 45px;width: 719px;margin-bottom: 20px}
+.structure .content .area { text-align: center; }
+.structure .content .area div { margin: 10px; width: 216px; height: 280px; display: inline-block }
+.structure .content div:nth-child(2) .left { background-image: url("images/hxx1.jpg") }
+.structure .content div:nth-child(2) .right { background-image: url("images/hxx2.jpg") }
+.structure .content div:nth-child(3) .left { background-image: url("images/hxx3.jpg") }
+.structure .content div:nth-child(3) .right { background-image: url("images/hxx4.jpg") }
 
-.intro .content .intruction1{margin-bottom: 50px}
-.intro .content .intruction2{margin-bottom: 50px}
-.intro .content .intruction1 .img{background-image:url("images/pic1.jpg") }
-.intro .content .intruction2 .img{background-image:url("images/pic2.jpg") }
 
-.intro .img2 {text-align: center;clear: both}
-.intro .img2 div{width: 230px;height: 150px;display: inline-block}
-.intro .img2 div:nth-child(1){background-image: url("images/pic7.jpg")}
-.intro .img2 div:nth-child(2){background-image: url("images/pic8.jpg")}
+/*物业管理*/
+.server .content .img{background-image: url("images/lanmu6.jpg"); width: 719px;height: 45px;margin-left: -40px}
+.server .content .text{font-size: 13px;margin-bottom: 15px;text-align: left}
+.server .content .title{font-size: 15px ;color: green;text-align: left;font-weight: 600;margin: 20px 0px}
+.server .content .imgArea{text-align: center}
+.server .content .imgArea div{display: inline-block}
+.server .content .imgArea .left{ background-image: url("images/pic4.jpg");width: 229px; height: 150px;}
+.server .content .imgArea .right{ background-image: url("images/pic11.jpg");width: 229px;height: 150px;}
 
-
+.contract .img{background-image: url("images/lanmu7.jpg");width: 719px;height: 45px;margin-left: -40px;margin-bottom: 30px}
+.contract .text{font-size: 13px;margin-bottom: 13px;text-align: left}
+.contract .imgArea{background-image: url("images/map1.gif");margin: 30px auto;width: 402px; height: 323px;}
